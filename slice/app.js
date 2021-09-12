@@ -1,11 +1,11 @@
 let text = "Hello, World";
 
 function slice(a,b, textParameter) {
-	let SplitedText = textParameter.split("");
+  let SplitedText = textParameter.split("");
   let SortedMessage = "";
   for(let i = a; i < b; i++) {
-  	SortedMessage += SplitedText[i];
-	}
+    SortedMessage += SplitedText[i];
+  }
   return SortedMessage;
 }
 
